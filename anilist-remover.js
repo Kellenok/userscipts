@@ -1,10 +1,8 @@
-
-
     // ==UserScript==
     // @name         Anilist Remover
     // @name:ru      Anilist скрытие
     // @namespace    https://github.com/Kellen-wq
-    // author        Kellen
+    // @author        Kellen
     // @version      1.0
     // @description  Removes specific anime/manga from recommendations and results on Anilist
     // @description:ru  Возможность удалить выбранное аниме или мангу из рекомендаций и поиска на Anilist
