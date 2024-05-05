@@ -104,7 +104,7 @@
     /** Endpoint for the Kitsu API */
     KITSU_API: 'https://kitsu.io/api/edge',
 
-    SHIKI_API: 'shikimori.one/api',
+    SHIKI_API: 'https://shikimori.one/api',
 
     /** Regex to extract the page type and media id from a AniList url path */
     ANI_LIST_URL_PATH_REGEX: /(anime|manga)\/([0-9]+)/i,
@@ -435,7 +435,7 @@ async loadShikimoriData(pageType, shikimoriId) {
     try {
         type = pageType === 'anime' ? 'animes' : 'mangas';
         const response = await utils.xhr({
-            url: `https://shikimori.one/api/${type}/${shikimoriId}`,
+            url: `${constants.SHIKI_API}/${type}/${shikimoriId}`,
             method: 'GET',
             responseType: 'json',
         });
