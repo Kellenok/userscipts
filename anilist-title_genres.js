@@ -6,7 +6,10 @@
 // @author        kln (t.me/kln_lzt)
 // @homepageURL   https://github.com/Kellenok/userscipts/
 // @supportURL    https://github.com/Kellenok/userscipts/issues
-// @match         https://anilist.co/*
+// @downloadURL   https://github.com/Kellenok/userscipts/blob/main/anilist-title_genres.js
+// @updateURL     https://github.com/Kellenok/userscipts/blob/main/anilist-title_genres.js
+// @match        https://anilist.co/anime/*
+// @match        https://anilist.co/manga/*
 // @grant         none
 // @license       MIT
 // ==/UserScript==
