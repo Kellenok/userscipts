@@ -955,6 +955,7 @@ async loadShikimoriData(pageType, shikimoriId) {
             containerEl.style.justifyContent = 'flex-end';
             containerEl.style.gridArea = 'rates';
             containerEl.style.gap = '1em';
+            containerEl.style.height = '100px';
             containerEl.style.zIndex = '2'
             containerEl.style.flexWrap = 'wrap'; // Allow wrapping if needed
 
