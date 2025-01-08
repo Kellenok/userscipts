@@ -232,7 +232,6 @@
             await this.moveAndFormatGenresAndTags();
             await this.moveAndFormatTitles();
             this.fixGrid();
-            this.moveBanner();
         }
 
         async moveAndFormatGenresAndTags() {
