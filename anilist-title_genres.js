@@ -494,7 +494,8 @@
         .${constants.CLASS_PREFIX}-show-more-tags:hover {
             text-decoration: underline;
         }
-        .banner::before {
+        .media-page-unscoped.media-manga .banner::before,
+        .media-page-unscoped.media-anime .banner::before {
              content: '';
             z-index: 10;
             width: 100%;
@@ -503,13 +504,15 @@
              background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 50%);
        }
 
-       .banner {
+       .media-page-unscoped.media-manga .banner,
+       .media-page-unscoped.media-anime .banner {
             margin-bottom: -8em;
             z-index: 1;
             position: relative;
         }
 
-        .banner .shadow{
+        .media-page-unscoped.media-manga .header-wrap .shadow,
+.media-page-unscoped.media-anime .header-wrap .shadow{
             display: none;
         }
 
