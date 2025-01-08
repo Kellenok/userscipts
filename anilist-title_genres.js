@@ -6,8 +6,7 @@
 // @author        kln (t.me/kln_lzt)
 // @homepageURL   https://github.com/Kellenok/userscipts/
 // @supportURL    https://github.com/Kellenok/userscipts/issues
-// @match         https://anilist.co/anime/*
-// @match         https://anilist.co/manga/*
+// @match         https://anilist.co/*
 // @grant         none
 // @license       MIT
 // ==/UserScript==
