@@ -11,3 +11,8 @@ Makes manga and anime scores more prominent by moving them to the title area. Al
 Fork. Added [shikimori.one.](https://shikimori.one)
 
 ### **[Copy from Github](https://raw.githubusercontent.com/Kellen-wq/userscipts/main/anilist-score.js)**  
+
+# Anilist New Title page
+2 parts is required
+
+### **[Copy 1 part](https://raw.githubusercontent.com/Kellen-wq/userscipts/main/anilist-title_genres.js)**  ||| ### **[Copy 2 part](https://raw.githubusercontent.com/Kellen-wq/userscipts/main/anilist-title_score.js)** 
