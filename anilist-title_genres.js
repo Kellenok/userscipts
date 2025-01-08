@@ -509,6 +509,10 @@
             position: relative;
         }
 
+        .banner .shadow{
+            display: none;
+        }
+
         `;
     document.head.appendChild(style);
 })();
