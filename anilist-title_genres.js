@@ -8,8 +8,8 @@
 // @supportURL    https://github.com/Kellenok/userscipts/issues
 // @downloadURL   https://github.com/Kellenok/userscipts/blob/main/anilist-title_genres.js
 // @updateURL     https://github.com/Kellenok/userscipts/blob/main/anilist-title_genres.js
-// @match        https://anilist.co/anime/*
-// @match        https://anilist.co/manga/*
+// @match         https://anilist.co/anime/*
+// @match         https://anilist.co/manga/*
 // @grant         none
 // @license       MIT
 // ==/UserScript==
