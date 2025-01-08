@@ -6,6 +6,8 @@
 // @author        kln (t.me/kln_lzt)
 // @homepageURL   https://github.com/Kellenok/userscipts/
 // @supportURL    https://github.com/Kellenok/userscipts/issues
+// @downloadURL   https://github.com/Kellenok/userscipts/blob/main/anilist-title_score.js
+// @updateURL     https://github.com/Kellenok/userscipts/blob/main/anilist-title_score.js
 // @match         https://anilist.co/*
 // @connect       graphql.anilist.co
 // @connect       api.jikan.moe
