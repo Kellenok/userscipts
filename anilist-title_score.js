@@ -8,7 +8,8 @@
 // @supportURL    https://github.com/Kellenok/userscipts/issues
 // @downloadURL   https://github.com/Kellenok/userscipts/blob/main/anilist-title_score.js
 // @updateURL     https://github.com/Kellenok/userscipts/blob/main/anilist-title_score.js
-// @match         https://anilist.co/*
+// @match         https://anilist.co/anime/*
+// @match         https://anilist.co/manga/*
 // @connect       graphql.anilist.co
 // @connect       api.jikan.moe
 // @connect       kitsu.io
