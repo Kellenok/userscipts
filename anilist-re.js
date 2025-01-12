@@ -1578,9 +1578,7 @@
 				        color: rgb(var(--color-gray-800)) !important;
 			      }
 
-            .${constants.CLASS_PREFIX}-scores div{
-                 color: rgb(var(--color-gray-00)) !important;
-            }
+
 
             .media-page-unscoped.media-manga .banner,
             .media-page-unscoped.media-anime .banner {
