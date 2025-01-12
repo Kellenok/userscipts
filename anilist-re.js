@@ -18,6 +18,8 @@
 // @grant         GM.setValue
 // @grant         GM.getValue
 // @license       MIT
+// @downloadURL   https://update.greasyfork.org/scripts/523545/AniList%3ARE.user.js
+// @updateURL   https://update.greasyfork.org/scripts/523545/AniList%3ARE.user.js
 // ==/UserScript==
  
 // This user script was tested with the following user script managers:
