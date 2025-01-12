@@ -1437,20 +1437,20 @@
             filter: blur(4px);
             transition: all 0.3s cubic-bezier(0, 0, 0.23, 1);
         }
- 
+
         .${constants.CLASS_PREFIX}-spoiler-tag:hover {
             filter: none;
         }
- 
+
         .${constants.CLASS_PREFIX}-tag-rank {
             font-weight: lighter;
             opacity: 0.7;
         }
- 
+
         .${constants.CLASS_PREFIX}-hidden-tag {
             display: none;
         }
- 
+
         .${constants.CLASS_PREFIX}-show-more-tags {
             cursor: pointer;
             display: inline-flex;
@@ -1458,11 +1458,11 @@
             white-space: nowrap;
             margin-bottom: 0.5em;
         }
- 
+
         .${constants.CLASS_PREFIX}-show-more-tags:hover {
             text-decoration: underline;
         }
- 
+
         .media-page-unscoped.media-manga .banner::before,
         .media-page-unscoped.media-anime .banner::before {
             content: "";
@@ -1475,24 +1475,24 @@
             z-index: 2;
              background: linear-gradient(to top, rgba(0, 0, 0, .85), transparent 180px), rgba(0, 0, 0, 0);
         }
- 
+
         .media-page-unscoped.media-manga .banner,
         .media-page-unscoped.media-anime .banner {
             margin-bottom: -8em;
             z-index: 1;
             position: relative;
         }
- 
- 
+
+
         .media-page-unscoped.media-manga .header-wrap .shadow,
         .media-page-unscoped.media-anime .header-wrap .shadow {
             display: none;
         }
- 
+
         .${constants.CLASS_PREFIX}-titles span:hover {
             cursor: pointer;
         }
- 
+
         .media-page-unscoped.media-manga  .header .container,
         .media-page-unscoped.media-anime  .header .container {
             display: grid;
@@ -1500,28 +1500,28 @@
             grid-template-columns: 215px 1fr auto;
             grid-template-areas: "cover header rates" "cover content content";
         }
- 
+
         .media-page-unscoped.media-manga  .header .cover-wrap,
         .media-page-unscoped.media-anime  .header .cover-wrap {
             grid-area: cover;
             z-index: 2;
             margin-top: 16px;
         }
- 
+
         .media-page-unscoped.media-manga  .header .content,
         .media-page-unscoped.media-anime  .header .content {
             grid-area: content;
             padding-top: 0;
         }
- 
+
         .media .hohDownload {z-index: 5;}
- 
+
         @media (max-width: 760px) {
             .media-page-unscoped.media-manga .banner::before,
             .media-page-unscoped.media-anime .banner::before {
                 background: radial-gradient(circle at center -30%, rgba(10, 10, 10, 0.2) 0, #0A0A0A 100%);
             }
- 
+
             .media-page-unscoped.media-manga  .header .container,
             .media-page-unscoped.media-anime  .header .container {
                 display: grid;
@@ -1533,43 +1533,56 @@
                     "rates"
                     "content";
             }
- 
+
             .media-page-unscoped.media-manga .cover-wrap-inner,
             .media-page-unscoped.media-anime .cover-wrap-inner {
                 display: flex !important;
                 flex-direction: column;
                 grid-gap: 0 !important;
             }
- 
+
               .media-page-unscoped.media-manga .cover-wrap-inner .cover,
                .media-page-unscoped.media-anime .cover-wrap-inner .cover {
                 max-width: 200px !important;
                 margin: 0 auto;
             }
- 
- 
+
+
               .media-page-unscoped.media-anime .cover-wrap-inner .actions,
               .media-page-unscoped.media-manga .cover-wrap-inner .actions {
                 max-width: 500px;
                 width: 100%;
                 margin: 20px auto;
               }
- 
+
             .${constants.CLASS_PREFIX}-genres-tags {
                 margin-top: 0.5em !important;
             }
- 
+
             .${constants.CLASS_PREFIX}-scores {
                 margin-top: 1.4em;
                 height: max-content !important;
                 justify-content: flex-start !important;
+                color: rgb(var(--color-gray-800)) !important;
             }
- 
+
             .${constants.CLASS_PREFIX}-titles div {
                 height: max-content !important;
             }
- 
-             .media-page-unscoped.media-manga .banner,
+
+            .${constants.CLASS_PREFIX}-titles span {
+				        color: rgb(var(--color-gray-600)) !important;
+			      }
+
+            .${constants.CLASS_PREFIX}-titles > div > a:nth-child(1) span{
+				        color: rgb(var(--color-gray-800)) !important;
+			      }
+
+            .${constants.CLASS_PREFIX}-scores div{
+                 color: rgb(var(--color-gray-00)) !important;
+            }
+
+            .media-page-unscoped.media-manga .banner,
             .media-page-unscoped.media-anime .banner {
                 height: 400px;
                 margin-bottom: -25em;
