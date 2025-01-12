@@ -1,6 +1,6 @@
 # AniList:RE — Better AniList
 
-<img src="https://raw.githubusercontent.com/Kellenok/userscipts/main/screenshots/re-desktop.jpg" alt="Screenshot of desktop" style="height: 400px;"> <img src="https://raw.githubusercontent.com/Kellenok/userscipts/main/screenshots/re-mobile.png" alt="Screenshot of mobile" style="height: 400px;"> 
+<img src="https://raw.githubusercontent.com/Kellenok/userscipts/main/screenshots/re-desktop.jpg" alt="Screenshot of desktop" style="height: 300px;"> <img src="https://raw.githubusercontent.com/Kellenok/userscipts/main/screenshots/re-mobile.png" alt="Screenshot of mobile" style="height: 300px;"> 
 
 This script cleans up AniList, giving you more info in one place:
 
