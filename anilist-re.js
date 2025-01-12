@@ -1584,7 +1584,7 @@
 
             .media-page-unscoped.media-manga .banner,
             .media-page-unscoped.media-anime .banner {
-                height: 400px;
+                height: 400px!important;
                 margin-bottom: -25em;
             }
         }
